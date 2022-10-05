@@ -2,10 +2,13 @@ import React, {useState, useEffect} from "react";
 import '../App.css'; 
 import  { API_URL} from '../Api'
 import axios from "axios";
+import { useAppContext } from "./context/appContext";
 
 const BookList = () => {
 
     const [books, setBooks] = useState([])
+
+    const { favorites, addToFavorites, removeFromFavorites} = useAppContext();
 
 
     useEffect(() =>{

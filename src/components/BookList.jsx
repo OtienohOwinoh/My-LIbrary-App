@@ -20,7 +20,7 @@ const BookList = () => {
 
     return <div className='book-list'>
             {books.map ((book)=> (
-                <div key={book.id}>
+                <div key={book.id} className="book">
                     <div><h2>{book.title}</h2></div>
                     <div><img src={book.image_url} alt="#" /></div>
                     <div>

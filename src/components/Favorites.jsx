@@ -15,7 +15,7 @@ const Favorites = () => {
         <div className="favorites">
             { favorites.length > 0 ? favorites.map ((book)=> (
     <div key={book.id} className="book">
-        <div><h4>{book.title}</h4></div>
+        <div><h4 className="book-title">{book.title}</h4></div>
         <div><img src={book.image_url} alt="#" /></div>
         <div>
             { favoritesChecker(book.id) ? (
@@ -32,7 +32,9 @@ const Favorites = () => {
         </div>
      </div>
 )) : (
-    <h1>You do not have any favorite books yet!</h1>
+    <h1 className="fav-text">Please Select Your Favorite Book from the Hopemage!</h1>
+    
+    
 )}
         </div>
     );

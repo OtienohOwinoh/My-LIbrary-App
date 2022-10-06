@@ -9,12 +9,16 @@ const BookDetails = () => {
 
     const [ book, setBook] = useState ({});
 
-    const{ id } = useParams;
+    const{ id } = useParams();
+    console.log("id;" + id)
 
     useEffect(() => {
         axios.get (`${BOOK_DETAILS_URL}/${id}`)
         .then (res => {
             setBook(res.data);
+            console.log (res.data)
+            
+
         }).catch(err=> console.log(err))
  
     }, [id])
@@ -25,7 +29,7 @@ const BookDetails = () => {
                 <img src={book?.image_url } alt="#" />
             </div>
             <div>
-                <h2 className="book-description">Descripion</h2>
+                <h2 className="book-description">Description</h2>
                 <p>{book?.description}</p>
                 <h2>Authors</h2>
                 <p>{book?.authors}</p>

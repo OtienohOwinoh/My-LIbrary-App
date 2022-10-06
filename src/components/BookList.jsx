@@ -35,7 +35,7 @@ const BookList = () => {
     return <div className='book-list'>
             {books.map ((book)=> (
                 <div key={book.id} className="book">
-                    <div><h4>{book.title}</h4></div>
+                    <div><h3 className="book-title">{book.title}</h3></div>
                     <div><img src={book.image_url} alt="#" onClick={() => navigate (`/books/${book.id}`)}/></div>
                     <div>
                         { favoritesChecker(book.id) ? (

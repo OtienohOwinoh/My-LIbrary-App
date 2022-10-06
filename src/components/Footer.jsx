@@ -5,7 +5,8 @@ const Footer = () => {
 
     return(
         <div className="footer">
-            <p>Books App 2022&copy;</p>
+            <p>Maktaba Library App 2022, All Rights Reserved&copy;</p>
+    
         </div>
     );
 }; 

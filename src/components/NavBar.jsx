@@ -7,11 +7,27 @@ const NavBar = () => {
     return(
         <div className="navbar">
             <div>
-                <h1>My Library App</h1> 
+                <Link to="/">
+
+                <h1>Maktaba Library App</h1> 
+
+                </Link>
             </div>
             <div>
                 <Link to="/favorites">
                     <h3>Your Favorites</h3>
+                </Link>
+            </div>
+
+            <div>
+                 <Link to="/blog">
+                 <h3>Blogs</h3>
+                </Link>
+                </div>
+
+            <div>
+                <Link to="/contactus">
+                 <h3>About Us</h3>
                 </Link>
             </div>
         </div>

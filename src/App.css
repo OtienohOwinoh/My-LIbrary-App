@@ -2,17 +2,20 @@
   box-sizing: border-box;
   border: 0;
   margin: 0;
+  font-family: sans-serif;
+  background: #eef1ff;
 }
 
 a{
-  color: white;
+  color: black;
   text-decoration: none;
+  
 }
 
 .navbar {
   width: 100%;
   height: 10vh;
-  background: black;
+  background: green;
   color: white;
   display: flex;
   align-items: center;
@@ -24,8 +27,8 @@ a{
 
 width: 100%;
 height: 10vh;
-background: black;
-color: white;
+background: green;
+color: black;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -34,22 +37,21 @@ justify-content: center;
 .book-list{
   min-height: 80vh;
   width: 100%;
-  display: flow-root;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   text-align: center;
-  justify-content: space-between;
-  /* grid-template-columns: (3, 1fr); */
-  justify-items: center;
+
 
 }
 
 .favorites{
   min-height: 80vh;
   width: 100%;
-  display: flow-root;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   text-align: center;
-  justify-content: space-between;
-  /* grid-template-columns: (3, 1fr); */
-  justify-items: center;
 
 }
 
@@ -57,15 +59,17 @@ justify-content: center;
   margin: 0 10px;
 }
 
-
 img {
-  width: 300px;
-  height: 300px;
+  max-width: 100%;
+  height: 350px;
   transition: all .3s ease;
   display: flex;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding-bottom: 5px;
 }
 
-.book-deails {
+.book-details {
   min-height: 80vh;
   width: 100%;
   display: flex;
@@ -86,16 +90,79 @@ img:hover {
   align-items: center;
   justify-content: center;
   margin: 20px 0;
+  flex-basis: calc((100% - 60px)/4);
+  
+}
+
+.book-title {
+
+  font-size: 1.2rem;
+  padding-bottom: 20px;
 }
 
 button {
   padding: 10px;
-  background: black;
+  background: green;
   color: white;
   border-radius: 5px;
   width: 300px;
   font-size: 20px;
 }
+
+.fav-text {
+ align-items: center;
+ background-color: beige;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+
+}
+
+.para-1 {
+
+  float: left;
+  width: 100%;
+}
+
+.about-image {
+ width: 50%;
+ float: left;
+
+
+      
+}
+
+.inner-image {
+      
+ background: url("https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg");
+ width: 100%;
+ padding-top: 60%;
+ background-size: cover;
+
+}
+
+.para-1 p {
+
+  float: left;
+  width: 100%;
+  padding: 50px;
+  
+
+}
+
+.about-text {
+  float: left;
+  width: 50%;
+}
+
+
+
 
 
 

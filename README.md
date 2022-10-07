@@ -8,15 +8,15 @@ Maktaba Library App is your one stop resource to view your favorite book synopsi
 
 # Setup Requirements`
 
--A smartphone/tablet or a pic.
--A WebBrowser
--Internet Connection
+*A smartphone/tablet or a pic.
+*A WebBrowser
+*Internet Connection
 
 # Technologies Used
 
 The following have been used in this project
--JSX
--CSS
+*JSX
+*CSS
 
 
 ### `npm run build`

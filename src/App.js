@@ -14,6 +14,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path ="/" element={<BookList />} />
+        <Route path ="/My-LIbrary-App"element={<BookList />} />
         <Route path ="/books/:id" element={<BookDetails />} />
         <Route path ="/favorites" element={<Favorites />} />
         <Route path ="/contactus" element={<ContactUs />} />

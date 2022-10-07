@@ -18,3 +18,45 @@
         <li>Internet Connection</li>
 
  </ul>
+
+
+ <h2>Technologies Used</h2>
+
+ <ul>
+       <li>JSX</li>
+       <li>CSS</li>
+</ul>
+
+<h2>Support and Contact details</h2>
+
+<p>This app represents the first version. In this case, it is still work in progress. In case a user encounters issues or experiences a bug, kindly feel free to reach the developer through collince.owinoh@student.moringaschool.com</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

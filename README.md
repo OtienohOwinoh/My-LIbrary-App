@@ -4,20 +4,20 @@ Maktaba Library App was created by Collince OWinoh on 06th October 2022
 
 # Description
 
-Maktaba Library APp is your one stop resource to view your favorite book synopsis. A wide selection of books have been identified by our editors and displayed. You can click on a title you would like to read and the book details pop up where you will read summary and snipets from your favorite book.
+Maktaba Library App is your one stop resource to view your favorite book synopsis. A wide selection of books have been identified by our editors and displayed. You can click on a title you would like to read and the book details pop up where you will read summary and snipets from your favorite book.
 
-### `npm start`
+# Setup Requirements`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A smartphone/tablet or a pic.
+A WebBrowser
+Internet Connection
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies Used
 
-### `npm test`
+The following have been used in this project
+JSX
+CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 

@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Maktaba LIbrary App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Maktaba Library App was created by Collince OWinoh on 06th October 2022
 
-## Available Scripts
+# Description
 
-In the project directory, you can run:
+Maktaba Library APp is your one stop resource to view your favorite book synopsis. A wide selection of books have been identified by our editors and displayed. You can click on a title you would like to read and the book details pop up where you will read summary and snipets from your favorite book.
 
 ### `npm start`
 

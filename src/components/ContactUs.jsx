@@ -33,17 +33,14 @@ const ContactUs = () => {
              Maktaba Library App helps organizations and individuals worldwide use knowledge efficiently.
               Maktaba Library App is your go to one stop mobile library that offers you a wide selection of book synopsis
               to scheme through before you can make a decision to purchase or read a book.
+              <br />
+              <br />
+              <br />
+              <br />
 
-              Click on Your Favorite Book Title to read a brief syn
-            </p>
-
-           
-           
-           
-
-
+                </p>
                 </div>
-             </div>
+                 </div>
 
 
               {/* Section */}
@@ -52,25 +49,30 @@ const ContactUs = () => {
               {/* Section */}
              <div className="para-1">
                 <div className="about-image">
-                    
-                    <h3>How it Works</h3>
 
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+
+                <h4>What can I do with the Maktaba Web App?</h4>
+                <br />
+                <ul>
+                <li>Click on your favorite book title from the list on the Maktaba Homepage to read the synopsis</li>
+                <li>Add or Remove book from your favorite list</li>
+                <li>Read through our blog and recommendations from our editors</li>
+            </ul>
+                    
+                    
         
                   </div>
                  <div className="about-text">
                <div className="inner-image"></div>
+               
     </div>
             </div>
   {/* Section */}
-
-
-
-              
-                <h2>Our Story</h2>
-            <img src="https://images.pexels.com/photos/256472/pexels-photo-256472.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="book" />
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, consectetur qui labore explicabo deserunt quis esse eos quasi. Cumque facere, natus 
-                    accusamus quae consequuntur at nostrum non eligendi exercitationem adipisci.</p>
 
 
             <h2>Contact Us</h2>

@@ -32,7 +32,7 @@ const Favorites = () => {
         </div>
      </div>
 )) : (
-    <h1 className="fav-text">Please Select Your Favorite Book from the Hopemage!</h1>
+    <h1 className="fav-text">Please Select Your Favorite Book from the Homepage!</h1>
     
     
 )}

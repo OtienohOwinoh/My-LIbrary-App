@@ -24,18 +24,36 @@ const BookDetails = () => {
     }, [id])
 
     return  <div className="book-details">
-            <div className="book-image">
-                <h2>{book?.title}</h2>
-                <img src={book?.image_url } alt="#" />
+
+    <div className="inner-details">
+        <div className="book-image">
+           <img src={book?.image_url } alt="#" />
+        </div>
+        <div className="details">
+        <h2 className="book-title">{book?.title}</h2>
+
+        <div className="two">
+            <div className="meta">
+            <h2>Authors: </h2>
+            <p>{book?.authors}</p>
             </div>
-            <div>
-                <h2 className="book-description">Description</h2>
-                <p>{book?.description}</p>
-                <h2>Authors</h2>
-                <p>{book?.authors}</p>
-                <h2>Genres</h2>
-                <p>{book?.genres}</p>
+
+            <div className="meta">
+            <h2>Genres: </h2>
+            <p>{book?.genres}</p>
             </div>
+        
+
+        </div>
+        <h2 className="book-description">Description</h2>
+             <p className="description-para">{book?.description}</p>
+
+
+    </div>
+
+
+
+        </div>
         </div>
     
 }; 

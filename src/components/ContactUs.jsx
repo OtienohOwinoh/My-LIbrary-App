@@ -8,9 +8,12 @@ const ContactUs = () => {
         <div className="about-us">
             
 
-            <div className="container">
+            <center>
+
             <h1>About Us</h1>
             <h1>Know Better, Do Better!</h1>
+            </center>
+
 
 
 
@@ -21,7 +24,7 @@ const ContactUs = () => {
             <div className="para-1">
                 <div className="about-image">
 
-                    <div className="inner-image"></div>
+                <div className="inner-image"></div>
                     
                 </div>
                 <div className="about-text">
@@ -76,13 +79,12 @@ const ContactUs = () => {
 
 
             <h2>Contact Us</h2>
-            <img src="https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="libraryimage2" />
+            <img src="https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="libraryimage2"/>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptate nulla incidunt, placeat quisquam doloribus dignissimos repellat. Eligendi rem omnis 
                 exercitationem quos nam fuga, accusantium illo eius non nobis perferendis?</p>
 
          </div>
 
-        </div>
     );
 }; 
 
